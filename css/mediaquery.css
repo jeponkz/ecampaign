@@ -1,0 +1,42 @@
+@media screen and (max-width: 960px) {
+  /*for tablets and small screen desktop*/
+  
+}
+
+@media screen and (max-width: 650px){
+  /* smartphone style (portrait and landscape) */
+  .body-login{
+    overflow: auto;
+  }
+  .body-login #footer{
+    position: static;
+  }
+  .tagline{
+    display: none;
+  }
+  .body-login .inner-login{
+    padding-bottom: 8%;
+  }
+  .body-login .form-login{
+    width: 300px;
+  }
+  .body-login .form-login input[type="text"], .body-login .form-login input[type="password"]{
+    width: 85%;
+  }
+  .body-login #footer .fl,
+  .body-login #footer .fr{
+    float: none;
+  }
+  .body-login #footer p{
+    font-size: 11px;
+  }
+  .body-login #footer > div{
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*small smartphone */
+  
+}
+
